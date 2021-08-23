@@ -1,0 +1,32 @@
+.images img{
+    width: 100%;
+    height: 100%;
+}
+body{
+ background-color: rgb(17, 11, 11);
+}
+.container{
+    display: flex;
+   justify-content: center;
+}
+.images{
+  width: 25%;
+  height: 200px;
+  margin: 0 10px;
+  float: left;
+  border: 2px solid gray;
+  padding: 3px;
+}
+.images:hover{
+    outline: 2px Solid blue
+}
+#borderImage{
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+ 
+
+}
+#borderImage img{
+    width: 100%;
+}
